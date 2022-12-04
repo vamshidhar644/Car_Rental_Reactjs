@@ -1,0 +1,81 @@
+.servicesContainer{
+    height: 90vh;
+    margin: 0;
+    padding: 2rem;
+}
+
+.Header{
+    width: fit-content;
+    font-size: 25px;
+    margin: 0;
+}
+
+.ServicesCards{
+    display: flex;
+    gap: 5rem;
+}
+
+
+.product-card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 300px;
+  }
+  
+  .product-name{
+    margin: 0;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: #424949;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: aliceblue;
+  }
+  
+  .product-card h3{
+    margin: 0;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .product-price{
+    background-color: #424949;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 20px;
+    color: aliceblue;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .Details{
+    margin: 0;
+    font-size: 17px;
+  }
+  
+  .Seating{
+    margin: 0;
+    font: 30px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;  
+  }
+  
+  .productinfo{
+    border: 3px solid #424949;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .Seating span{
+    background-color: #616A6B;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50%;
+  }
+  
+  

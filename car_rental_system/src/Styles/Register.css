@@ -1,0 +1,31 @@
+.Registercontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Registercontainer section{
+    padding: 50px;    
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(10, 156, 156);
+    padding: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.BtnSubmit{
+    width: 100%;
+}
+
+.bottomLine{
+    padding: 5px;
+    text-align: center;
+}
+
+.bottomLine span{
+    cursor: pointer;
+}
+
+.bottomLine span:hover{
+    color: lightgreen;
+}

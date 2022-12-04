@@ -1,0 +1,31 @@
+.LoginContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover{
+    padding: 50px;    
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(10, 156, 156);
+    padding: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.otherLogin{
+    padding: 3rem;
+}
+
+.otherLogin p{
+    margin: 0;
+}
+
+.otherLogin p span{
+    cursor: pointer;
+    color: tomato;
+}
+
+.BtnSubmit{
+    width: 100%;
+}

@@ -1,0 +1,165 @@
+*{
+    font-family: 'poppins', sans-serif;
+}
+
+.contact-container{
+    width: 100%;
+    height: fit-content;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-container h1{
+    font-family: 'Fredoka One', cursive;
+    font-size: 3rem;
+    color: rgb(6, 6, 85);
+}
+
+.form{
+    display: block;
+    gap: 2rem;
+    padding: 2vw;
+    width: 95%;
+    max-width: 700px;
+    border-radius: 1.5rem;
+    height: fit-content;
+    transition: 1s;
+}
+
+.contact-parent{
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    gap: 30px;
+}
+
+.form h3{
+    color: rgb(6, 6, 85);
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-family: 'Kalam';
+}
+
+.form input, .form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 15px;
+    outline: none;
+    background: transparent;
+    border-bottom: 3px solid black;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.message{
+    height: fit-content;
+}
+
+.form button{
+    padding: 5px;
+    background-color: transparent;
+    color: black;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto 0;
+    border-radius: 10px;
+    box-shadow: inset 0 0 1px 0 rgb(6, 6, 85);
+    transition: color 0.3s ease-in-out, box-shadow .3s ease-in-out;
+
+}
+.form button:hover{    
+    cursor: pointer;
+    color: white;
+    box-shadow: inset 0 0 0 200px black;
+    border: 3px solid transparent;
+}
+
+.form textarea{
+    resize: none;
+}
+
+.submit{
+    display: flex;
+    font-size: 0.8rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-me{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+}
+.sentmodel{
+    width: 25rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    height: 15rem;
+    border-radius: 1rem;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    font-family: 'Fredoka One', cursive;  
+    text-align: center;
+}
+
+.sentoverlay{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+}
+
+.thankyou{
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.thanks-icon{
+    font-size: 4.7rem;
+    justify-content: center;
+}
+.sentContent{
+    border: 3px solid black;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+@media screen and (max-width:360px) {
+    .form:hover{
+        transform: 0;
+    }
+    .submit{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .form{
+        gap: 1rem;
+    }
+    .contact-parent{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .form{
+        gap: 1rem;
+    }
+    .contact-parent{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+

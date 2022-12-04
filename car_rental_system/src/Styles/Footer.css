@@ -1,0 +1,35 @@
+
+.FooterBody{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    display: flex;
+    font-size: 2rem;
+    gap: 10px;
+}
+
+.icons:hover{
+    cursor: pointer;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    vertical-align: top;
+}
+
+.downloadTitle{
+    margin: 0;
+}
+
+.foot{
+    margin: 1px;
+}

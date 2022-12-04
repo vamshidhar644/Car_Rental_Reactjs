@@ -1,0 +1,44 @@
+
+.Home-Container{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .Home-Container img{
+    width: 100%;
+  }
+  
+  .Home-Container h1{
+    font-size: 3.2rem;
+    margin: 0;
+    font-family: 'Carter One', cursive;
+    font-weight: lighter;
+  }
+  
+  .Home-Container h4{
+    font-size: 30px;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .BookBtn{
+    background-color: salmon;
+    width: fit-content;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .BookBtn a{
+    text-decoration: none;
+    color: black;
+  }
+  
